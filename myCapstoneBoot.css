@@ -1,0 +1,176 @@
+body {
+    padding: 10px;
+    /*animation: bg_body 20s infinite;*/
+    background-image: url("blushbaby_files/bg.jpg");
+    animation: slide 20s linear infinite;
+}
+
+/*Here i got the animation thing going on in the background*/
+@keyframes slide {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: -400px 0;
+    }
+}
+
+/*i Personalized my nav bar here */
+.navibar {
+    background-color: #e6ccff;
+    text-align: center;
+    font-size: 40px;
+    font-family: comic sans MS header;
+    font-style: italic;
+    text-decoration: none;
+}
+
+/*here i edited my nav bar to fit the colors of my page  */
+.nav-link {
+    text-align: center;
+    float: left;
+}
+
+/*basically just wanted my text to be in the center */
+
+.navi-link:hover {
+    background-color: white;
+}
+
+/*i added a hover so basically everything that has a link will have a hover*/
+a:hover {
+    color: white;
+}
+
+/*I added an image in my header for a background picture . Then i also added a few other things for my header*/
+#head4 {
+    background-image: url(https://pbs.twimg.com/media/CWA-dNtWwAQyJMa.jpg);
+    height: 190px;
+    font-style: italic;
+    text-align: center;
+    font-size: 100px;
+    font-family: comic sans MS header;
+    color: white;
+    font-style: bold;
+}
+
+/*i am using 3 different types of fonts families */
+h1 {
+    font-family: comic sans MS header;
+    font-style: italic;
+    font-size: 55px;
+    text-align: center;
+    color: #0080ff;
+
+}
+
+h4 {
+    font-family: comic sans MS header;
+    font-style: italic;
+    font-size: 35px;
+    text-align: center;
+    color: #0080ff;
+}
+
+h5 {
+    font-family: comic sans MS header;
+    font-style: italic;
+    font-size: 60px;
+    text-align: center;
+    color: #0080ff;
+}
+
+/* here i wanted my paragraphs spaced equally and used the margin thing*/
+#p4 {
+    margin-left: 35px;
+    font-size: 27px;
+    font-family: comic sans MS header;
+    font-style: italic;
+    color: #0080ff;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    padding: 5%;
+    text-align: center;
+}
+
+
+/*Here i spaced my reviews */
+.EP {
+    font-size: 35px;
+    font-family: Courier New;
+    color: #0080ff;
+}
+
+/*I personalized my button*/
+
+.btn {
+    font-family: Courier New;
+    background-color: pink;
+    size: 40px;
+}
+
+p {
+    font-family: Courier New;
+    font-size: 26px;
+    color: purple;
+}
+
+.col2 {
+    background-color: darkgrey;
+    width: 100%;
+    height: auto;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 4%;
+    margin-top: 10%
+}
+
+.GandB {
+    font-size: 35px;
+    font-family: Courier New;
+    color: #0080ff;
+}
+
+/*here i personlized my table */
+.Mytable {
+    width: 30%;
+    height: auto;
+    color: purple;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*i added a footer for each page*/
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkgrey;
+    color: black;
+    text-align: center;
+}
+
+.img-thumbnail {
+    width: 250px;
+    height: 380px;
+}
+
+/*here i took away my bullets */
+ul {
+    list-style: none;
+}
+
+#myclothes tr td{
+  text-align: center;
+  border: 3px solid #7B6AC8;
+  padding: 20px;
+}
+
+table {
+  margin-left: 25%;
+  margin-right: 25%;
+
+}
